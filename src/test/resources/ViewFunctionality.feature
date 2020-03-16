@@ -1,0 +1,1 @@
+Feature: Verify view functionalities
