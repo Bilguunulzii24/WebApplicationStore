@@ -1,0 +1,138 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3722472000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "the user navigate to My Store web page",
+            "match": {
+              "location": "StepDefinitions.AuthenticationFunctionalitySteps.the_user_navigate_to_My_Store_web_page()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 841315000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user clicks sign in button",
+            "match": {
+              "location": "StepDefinitions.AuthenticationFunctionalitySteps.the_user_clicks_sign_in_button()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1819674000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user inputs email \"David.Fox007@gmail.com\" and password \"111000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"David.Fox007@gmail.com\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"111000\"",
+                  "offset": 60
+                }
+              ],
+              "location": "StepDefinitions.AuthenticationFunctionalitySteps.the_user_inputs_email_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-16T21:38:55.115Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5151773000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hook.setUpDriver()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Validate view functionality",
+        "description": "",
+        "id": "verify-view-functionalities;validate-view-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 785540000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1511220000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user click on women",
+            "match": {
+              "location": "StepDefinitions.ViewFunctionSteps.the_user_click_on_women()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 323811000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user change the view to list",
+            "match": {
+              "location": "StepDefinitions.ViewFunctionSteps.the_user_change_the_view_to_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat StepDefinitions.ViewFunctionSteps.the_user_validate_if_it_has_changed(ViewFunctionSteps.java:24)\n\tat ✽.the user validate if it has changed(file:///Users/Khulan/Downloads/Online-Store%202/src/test/resources/ViewFunctionality.feature:10)\n",
+              "duration": 92785000,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "the user validate if it has changed",
+            "match": {
+              "location": "StepDefinitions.ViewFunctionSteps.the_user_validate_if_it_has_changed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Verify view functionalities",
+    "description": "",
+    "id": "verify-view-functionalities",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/ViewFunctionality.feature",
+    "tags": []
+  }
+]

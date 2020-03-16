@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="14.822">
+    <testcase classname="Verify view functionalities" name="Validate view functionality" time="14.396">
+        <failure message="" type="java.lang.AssertionError">
+            <![CDATA[* the user navigate to My Store web page....................................passed
+* the user clicks sign in button............................................passed
+* the user inputs email "David.Fox007@gmail.com" and password "111000"......passed
+Given the user click on women...............................................passed
+Then the user change the view to list.......................................passed
+And the user validate if it has changed.....................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at StepDefinitions.ViewFunctionSteps.the_user_validate_if_it_has_changed(ViewFunctionSteps.java:24)
+	at ✽.the user validate if it has changed(file:///Users/Khulan/Downloads/Online-Store%202/src/test/resources/ViewFunctionality.feature:10)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
